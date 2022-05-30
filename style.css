@@ -37,7 +37,7 @@ ul li
 
 ul li:hover
 {
-	background: #33a3ee;
+	background: #39aaaa;
 	transform: translateX(30px);
 }
 
@@ -57,7 +57,7 @@ ul li::before
 
 ul li:hover::before
 {
-	background: #1f5378;
+	background: #396363;
 }
 
 ul li::after
@@ -76,7 +76,7 @@ ul li::after
 
 ul li:hover::after
 {
-	background: #2982b9;
+	background: #397b7b;
 }
 
 ul li a
@@ -96,5 +96,5 @@ ul li:hover a
 
 ul li:Last-child::after
 {
-	box-shadow: -120px 120px 20px rgba(0, 0, 0, 0.25);
+	box-shadow: -120px 120px 20px rgba(0, 0, 0, 0.8);
 }
