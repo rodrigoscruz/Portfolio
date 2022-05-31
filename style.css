@@ -18,6 +18,7 @@ body
 	background: #181E1A;
 }
 
+
 ul
 {
 	position: relative;
@@ -98,3 +99,63 @@ ul li:Last-child::after
 {
 	box-shadow: -120px 120px 20px rgba(0, 0, 0, 0.8);
 }
+
+
+.page-container {
+   padding: 20px 10px;
+   width: 100%;
+   max-width: 650px;
+   margin: auto;
+   text-align: left;
+   background-color: white;
+   
+}
+
+.parallax {
+   
+}
+
+.hero2 {
+   width: 80%;
+   height: 404px;
+   position: relative;
+   display: flex;
+   align-items: center; 
+   position: absolute;
+   top: 200%;
+   left: 10%; 
+}
+
+.hero2 .content {
+
+   font-family: 'Poppins', sans-serif;
+   color: white;
+   text-align: left;
+   margin-left: 10%;
+}
+
+.hero2 .content button {
+   background-color: transparent;
+   border: 1px solid white;
+   color: white;
+   padding: 12px 20px;
+   font-family: poppins;
+   font-size: 16px;
+   margin-top: 20px;
+   min-width: 200px;
+   transition: 0.5s;
+   cursor: pointer;
+}
+
+.hero2 .content button:hover {
+   background-color: white;
+   color: #ab4ad6;
+   transition: 0.5s;
+  
+}
+
+.rellax {
+   font-family: 'Poppins', sans-serif;
+   font-weight: 500px;
+}
+
