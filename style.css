@@ -38,7 +38,7 @@ ul li
 
 ul li:hover
 {
-	background: #39aaaa;
+	background: rgb(49, 141, 49);
 	transform: translateX(30px);
 }
 
@@ -58,7 +58,7 @@ ul li::before
 
 ul li:hover::before
 {
-	background: #396363;
+	background: rgb(62, 206, 62);
 }
 
 ul li::after
@@ -77,7 +77,7 @@ ul li::after
 
 ul li:hover::after
 {
-	background: #397b7b;
+	background: rgb(105, 238, 105);
 }
 
 ul li a
@@ -136,8 +136,8 @@ ul li:Last-child::after
 
 .hero2 .content button {
    background-color: transparent;
-   border: 1px solid white;
-   color: white;
+   border: 1px solid green;
+   color: green;
    padding: 12px 20px;
    font-family: poppins;
    font-size: 16px;
@@ -148,8 +148,8 @@ ul li:Last-child::after
 }
 
 .hero2 .content button:hover {
-   background-color: white;
-   color: #ab4ad6;
+   background-color: green;
+   color: #181E1A;
    transition: 0.5s;
   
 }
