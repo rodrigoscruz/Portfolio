@@ -85,6 +85,11 @@ ul li:hover:Last-child::after /* ultimo parte de cima */
 	background: rgb(40, 118, 226);
 }
 
+ul li:hover:2::after /* ultimo parte de cima */
+{
+	background: rgb(4, 1, 2);
+}
+
 ul li:hover:Last-child::before /* lado esquerdo */
 {
 	background: rgb(43, 91, 226);
