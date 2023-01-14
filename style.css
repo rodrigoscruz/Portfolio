@@ -18,6 +18,7 @@ body
 	background: #181E1A;
 }
 
+/*Menu - inicio*/
 
 ul
 {
@@ -122,6 +123,12 @@ ul li:Last-child::after
 	box-shadow: -120px 120px 20px rgba(0, 0, 0, 0.8);
 }
 
+/*Menu - fim*/
+
+
+
+
+/*Links para subareas*/
 
 .page-container {
    padding: 20px 10px;
@@ -132,7 +139,9 @@ ul li:Last-child::after
    background-color: white;
 }
 
-.hero2 {
+/*Primeira formatação - inicio*/
+
+.quadro1 {
    width: 80%;
    height: 404px;
    position: relative;
@@ -140,10 +149,10 @@ ul li:Last-child::after
    align-items: center; 
    position: absolute;
    top: 100%;
-   left: 10%; 
+   left: 15%; 
 }
 
-.hero2 .content {
+.quadro1 .content {
 
    font-family: 'Poppins', sans-serif;
    color: white;
@@ -152,7 +161,7 @@ ul li:Last-child::after
 
 }
 
-.hero2 .content button {
+.quadro1 .content button {
    background-color: transparent;
    border: 1px solid green;
    color: green;
@@ -166,12 +175,60 @@ ul li:Last-child::after
    box-shadow: 120px 120px 20px rgba(0, 0, 0, 0.3);
 }
 
-.hero2 .content button:hover {
+.quadro1 .content button:hover {
    background-color: #232b26;
    color: rgb(49, 141, 49);
    transition: 0.5s;
    
 }
+
+/*Primeira formatação - fim*/
+
+
+/*Segunda formatação - inicio*/
+
+.quadro2 {
+   width: 80%;
+   height: 404px;
+   position: relative;
+   display: flex;
+   align-items: center; 
+   position: absolute;
+   top: 120%;
+   left: 30%; 
+}
+
+.quadro2 .conteudo {
+
+   font-family: 'Poppins', sans-serif;
+   color: white;
+   text-align: left;
+   margin-left: 10%;s
+
+}
+
+.quadro2 .conteudo button {
+   background-color: transparent;
+   border: 1px solid green;
+   color: green;
+   padding: 12px 20px;
+   font-family: poppins;
+   font-size: 16px;
+   margin-top: 20px;
+   min-width: 200px;
+   transition: 0.5s;
+   cursor: pointer;
+   box-shadow: 120px 120px 20px rgba(0, 0, 0, 0.3);
+}
+
+.quadro2 .conteudo button:hover {
+   background-color: #232b26;
+   color: rgb(49, 141, 49);
+   transition: 0.5s;
+   
+}
+
+/*Segunda formatação - fim*/
 
 .rellax {
    font-family: 'Poppins', sans-serif;
