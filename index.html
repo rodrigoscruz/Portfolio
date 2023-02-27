@@ -113,7 +113,7 @@
           <div class="carousel-caption text-start">
             <h1>Login com Metamask</h1>
             <p>Conectar-se ao seu login da Metamask. É necessária a extensão da Metamesk em seu browser.</p>
-            <p><a class="button1" href="#">Conectar</a></p>
+            <p><a class="button1">Conectar</a></p>
           </div>
         </div>
       </div>
@@ -205,6 +205,19 @@
 
 </main>
 
+	<script>
+		/*if(window.ethereum){
+			document.querySelector('button1').addEventListener('click', ()=>{
+				try{
+					const accounts = await ethereum.request({method:'eth_requestAccounts'});
+					account = accounts[0];
+					document.querySelector('span').innerHTML=account;
+				}catch(e){}
+			})
+		}else{
+			alert("Não conseguiu conectar");
+		}*/
+    </script>
 
     <script src="bootstrap.bundle.min.js"></script>
 
