@@ -19,6 +19,11 @@ body
 }
 
 /*Menu - inicio*/
+.jogos{
+	margin-top: 20%;
+	margin-left: 20%;
+}
+
 
 ul
 {
@@ -37,7 +42,7 @@ ul li
 	transition: 0.5s;
 }
 
-ul li:hover /* frente */
+ul li:hover:Last-child /* frente */
 {
 	background: rgb(100, 141, 100);
 	transform: translateX(30px);
@@ -57,7 +62,7 @@ ul li::before
 	transition: 0.5s;
 }
 
-ul li:hover::before /* lado esquerdo */
+ul li:hover:Last-child::before /* lado esquerdo */
 {
 	background: rgb(80, 112, 80);
 }
@@ -76,12 +81,12 @@ ul li::after
 	transition: 0.5s;
 }
 
-ul li:hover::after /* parte de cima */
+ul li:hover:Last-child::after /* parte de cima */
 {
 	background: rgb(91, 126, 91);
 }
 
-ul li:hover:Last-child::after /* ultimo parte de cima */
+ul li:hover::after /* ultimo parte de cima */
 {
 	background: rgb(40, 118, 226);
 }
@@ -91,12 +96,12 @@ ul li:hover:2::after /* ultimo parte de cima */
 	background: rgb(4, 1, 2);
 }
 
-ul li:hover:Last-child::before /* lado esquerdo */
+ul li:hover::before /* lado esquerdo */
 {
 	background: rgb(43, 91, 226);
 }
 
-ul li:hover:Last-child /* frente */
+ul li:hover /* frente */
 {
 	background: rgb(40, 133, 226);
 	transform: translateX(30px);
@@ -128,6 +133,8 @@ ul li:Last-child::after
 
 
 
+
+
 /*Links para subareas*/
 
 .page-container {
@@ -146,10 +153,9 @@ ul li:Last-child::after
    height: 404px;
    position: relative;
    display: flex;
-   align-items: center; 
-   position: absolute;
-   top: 100%;
-   left: 15%; 
+   align-items: center;
+   top: 10%;
+   left: 25%; 
 }
 
 .quadro1 .content {
@@ -157,7 +163,7 @@ ul li:Last-child::after
    font-family: 'Poppins', sans-serif;
    color: white;
    text-align: left;
-   margin-left: 10%;s
+   margin-left: 4%;s
 
 }
 
@@ -165,7 +171,7 @@ ul li:Last-child::after
    background-color: transparent;
    border: 1px solid green;
    color: green;
-   padding: 12px 20px;
+   padding: 12px 2px;
    font-family: poppins;
    font-size: 16px;
    margin-top: 20px;
@@ -195,7 +201,7 @@ ul li:Last-child::after
    align-items: center; 
    position: absolute;
    top: 120%;
-   left: 30%; 
+   left: 10%; 
 }
 
 .quadro2 .conteudo {
@@ -211,7 +217,7 @@ ul li:Last-child::after
    background-color: transparent;
    border: 1px solid green;
    color: green;
-   padding: 12px 20px;
+   padding: 12px 2px;
    font-family: poppins;
    font-size: 16px;
    margin-top: 20px;
