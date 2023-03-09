@@ -74,7 +74,7 @@
 
 
 <!-- Blocos -->
-  <div id="myCarousel" class="carousel slide" data-bs-ride="carousel">
+  <div class="rellax" data-rellax-speed="1" id="myCarousel" class="carousel slide" data-bs-ride="carousel">
     <div class="carousel-indicators">
       <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
       <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
@@ -132,8 +132,8 @@
     <hr class="featurette-divider">
 
     <div class="row featurette">
-      <div class="col-md-7" style="margin-top: -10%;">
-        <h2 style="color: #aaf;" class="featurette-heading">GameDev</h2>
+      <div class="col-md-7" style="margin-top: -10%;" >
+        <h2 style="color: #aaf;" class="featurette-heading" >GameDev</h2>
         <video width="600" controls>
   			<source src="video/fight.mp4" type="video/mp4">
   			<source src="video/fight.ogg" type="video/ogg">
@@ -141,8 +141,7 @@
         <p style="color: #224;" class="lead">Alguns jogos desenvolvidos em Unity para desktop, web e mobile.</p>
       </div>
       <div class="col-md-5">
-        <!--svg class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500" height="500" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 500x500" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#eee"/><text x="50%" y="50%" fill="#aaa" dy=".3em">500x500</text></svg-->
-        <div class="jogos">
+        <div class="rellax" data-rellax-speed="2" class="jogos">
 		<ul>
 		<li style="--i:4;"><a href="https://rodrigoscruz.github.io/Xadrez-FPs/">Xadrez FPS</a></li>
 		<li style="--i:3;"><a href="#">Piscina</a></li>
@@ -161,7 +160,7 @@
 <!-- Footer -->
 <footer class="container">
     <p class="float-end"><a href="#" style="text-decoration: none;">Voltar ao topo</a></p>
-    <p> 2023, Portfólio de Rodrigo Souza da Cruz &middot; <a href="https://github.com/rodrigoscruz" style="text-decoration: none;">GitHub</a> &middot; <a href="https://www.linkedin.com/in/rodrigo-souza-da-cruz-4ba154181/" style="text-decoration: none;">Linkedin</a></p>
+    <p> 2023, Portfólio &middot; <a href="https://github.com/rodrigoscruz" style="text-decoration: none;">GitHub</a> &middot; <a href="https://www.linkedin.com/in/rodrigo-souza-da-cruz-4ba154181/" style="text-decoration: none;">Linkedin</a></p>
   </footer>
 <!-- Fim Footer -->
 
@@ -170,6 +169,10 @@
     <script src="bootstrap.bundle.min.js"></script>
 
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/rellax/1.12.1/rellax.min.js" integrity="sha512-f5HTYZYTDZelxS7LEQYv8ppMHTZ6JJWglzeQmr0CVTS70vJgaJiIO15ALqI7bhsracojbXkezUIL+35UXwwGrQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+	
+	<script>
+		var rellax = new Rellax('.rellax');
+	</script>
 
 </body>
 </html>

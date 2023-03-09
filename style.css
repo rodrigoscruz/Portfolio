@@ -20,8 +20,9 @@ body
 
 /*Menu - inicio*/
 .jogos{
-	margin-top: 20%;
-	margin-left: 20%;
+	position: fixed;
+	margin-top: 100px;
+	margin-left: 30%;
 }
 
 
