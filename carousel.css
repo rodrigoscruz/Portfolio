@@ -96,6 +96,7 @@ background: linear-gradient(180deg, rgba(36,37,38,1) 2%, rgba(0,63,177,1) 70%, r
 
 .featurette-divider {
   margin: 3rem 0; /* Space out the Bootstrap <hr> more */
+  color: #eee;
 }
 
 /* Thin out the marketing headings */
