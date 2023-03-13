@@ -6,8 +6,8 @@ body {
   padding-top: 3rem;
   padding-bottom: 3rem;
   color: #5a5a5a;
- background: rgb(36,37,38);
-background: linear-gradient(180deg, rgba(36,37,38,1) 2%, rgba(0,63,177,1) 70%, rgba(27,242,255,1) 100%);
+  background: rgb(36,37,38);
+background: linear-gradient(180deg, rgba(36,37,38,1) 6%, rgba(0,63,177,1) 70%, rgba(27,242,255,1) 100%);
 }
 
 
