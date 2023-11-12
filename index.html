@@ -4,182 +4,45 @@
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>Portifólio</title>
-	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="stylesheet" type="text/css" href="styles/style.css">
+	<link rel="stylesheet" type="text/css" href="styles/header.css">
 	<link href="https://fonts.googleapis.com/css?family=Lato|Poppins:300,400,500&display=swap" rel="stylesheet">
 	<link rel="icon" type="imagem/png" href="img/logo.png" />
-	<link href="bootstrap.min.css" rel="stylesheet">
-	<link href="carousel.css" rel="stylesheet">
 
-	<link rel="canonical" href="indexis">
-
-    
-
-
-	<style>
-      .bd-placeholder-img {
-        font-size: 1.125rem;
-        text-anchor: middle;
-        -webkit-user-select: none;
-        -moz-user-select: none;
-        user-select: none;
-      }
-
-      @media (min-width: 768px) {
-        .bd-placeholder-img-lg {
-          font-size: 3.5rem;
-        }
-      }
-    </style>
 
 </head>
 
 <body>
-
-
 <!-- Menu -->
-<header>
-  <nav class="navbar navbar-expand-md navbar-ligth fixed-top bg-dark">
-    <div class="container-fluid">
-      <a class="navbar-brand" href="#"><img src="img/logo.png" alt="Cinque Terre" width="60" height="60"></a>
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarCollapse">
-            <a class="nav-link active" aria-current="page" href="https://github.com/rodrigoscruz">GitHub</a>
-            <a class="nav-link" href="https://www.linkedin.com/in/rodrigo-souza-da-cruz-4ba154181/">Linkedin</a>
-            <a class="nav-link" href="https://drive.google.com/file/d/1ELKgEGZFIQymP2Vzm71nLN1wwtNm1jCI/view?usp=sharing">Curriculo</a>
-      </div>
-    </div>
+<header class="header">
+  <nav class="nav">
+    <a href="/" class="logo">🐅</a>
+    <button class="hamburger"></button>
+    <ul class="nav-list">
+      <li><a href="#">Sobre</a></li>
+      <li><a href="#">Projetos</a></li>
+      <li><a href="#">Contato</a></li>
+    </ul>
   </nav>
 </header>
 <!-- Fim Menu -->
 
-<main>
+<!-- Curriculo -->
+<!-- Fim Curriculo -->
 
-<!-- Perfil -->
-  <div class="container marketing">
-
-    <div class="row featurette">
-      <div class="col-md-7">
-        <h2 style="color: #cacbe7;" class="featurette-heading">Rodrigo Souza da Cruz <br><span class="text-muted">Brasileiro | 27 anos  |  Solteiro</span></h2>
-        <p style="color: #cacbe7;" class="lead">-Desktop Java, C# e C++.</p>
-        <p style="color: #cacbe7;" class="lead">-WebDev Javascript, HTML e CSS.</p>
-        <p style="color: #cacbe7;" class="lead">-Desenvolvedor Web3 Solidity e Golang.</p>
-        <p style="color: #cacbe7;" class="lead">-GameDev C#, Unity e Blender.</p>
-      </div>
-      <!--div class="rellax" data-rellax-speed="9" class="col-md-5" style="margin-top: 1%;" >
-        <svg class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="700" height="400" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 500x500" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#212d59"/><text x="50%" y="50%" fill="#aaa" dy=".3em"></text></svg>
-
-      </div-->
-    </div>
-
-    <!--hr class="featurette-divider"-->
-    </div><!-- /.container -->
-<!-- Fim Perfil -->
-
-
-<!-- Blocos 
-  <div class="rellax" data-rellax-speed="1" id="myCarousel" class="carousel slide" data-bs-ride="carousel">
-    <div class="carousel-indicators">
-      <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-      <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
-      <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
-    </div>
-    <div class="carousel-inner">
-      <div class="carousel-item active">
-        <svg class="bd-placeholder-img" width="100%" height="100%" src="./assets/images/user.svg" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="100%" fill="#222"/></svg>
-        <div class="container">
-          <div class="carousel-caption text-start">
-            <h1>Find</h1>
-            <p>Aplicativo criado durante o processo seletivo da empresa FCamara, </p>
-            <p><a class="button1" href="https://github.com/rodrigoscruz/Find">Código</a></p>
-          </div>
-        </div>
-      </div>
-      <div class="carousel-item">
-        <svg class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="100%" fill="#252525"/></svg>
-
-        <div class="container">
-          <div class="carousel-caption">
-            <h1>Web Severino</h1>
-            <p>Site com diversar funcionalidades, criadas com Javascript.</p>
-            <p><a class="button2" href="https://rodrigoscruz.github.io/Severino/">Site</a></p>
-          </div>
-        </div>
-      </div>
-      <div class="carousel-item">
-        <svg class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="100%" fill="#333"/></svg>
-
-        <div class="container">
-          <div class="carousel-caption text-end">
-            <h1>Login com GO</h1>
-            <p>Login utilizando servidor em Golang.</p>
-            <p><a class="button3" href="https://github.com/rodrigoscruz/Login-GO">Código</a></p>
-          </div>
-        </div>
-      </div>
-    </div>
-    <button class="carousel-control-prev" type="button" data-bs-target="#myCarousel" data-bs-slide="prev">
-      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-      <span class="visually-hidden">Previous</span>
-    </button>
-    <button class="carousel-control-next" type="button" data-bs-target="#myCarousel" data-bs-slide="next">
-      <span class="carousel-control-next-icon" aria-hidden="true"></span>
-      <span class="visually-hidden">Next</span>
-    </button>
-  </div>
- Fim Blocos -->
-
-
-<!-- Game Dev -->
-  <div class="container marketing">
-
-    <!--hr class="featurette-divider"-->
-
-    <div class="row featurette">
-      <div class="col-md-7" style="margin-top: 30%;" >
-        <h2 style="color: #aaf;" class="rellax" data-rellax-speed="1" class="featurette-heading" >Projetos</h2>
-        <video style=" 
-  		border: solid 4px #050505;
-  		border-radius: 10px;
-  		box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.6);" 
-  		class="rellax" data-rellax-speed="1" width="600" controls>
-  			<source src="video/Projetos.mp4" type="video/mp4">
-  			<source src="video/Projetos.ogg" type="video/ogg">
-		</video>
-      </div>
-      <div class="col-md-5">
-        <div style="margin-top: 20%;" class="rellax" data-rellax-speed="4" class="jogos">
-		<ul>
-		<li style="--i:2;"><a href="https://rodrigoscruz.github.io/Jogo2D/">JOGO 2D</a></li>
-		<li style="--i:1;"><a href="https://rodrigoscruz.github.io/Xadrez-FPs/">JOGO 3D</a></li>
-		<!--<li style="--i:1;"><a href="#">PlayStore</a></li>-->
-		</div>
-      </div>
-    </div>
-
-    <hr style="color: #222;" class="featurette-divider">
-
-    </div><!-- /.container -->
-<!-- Fim Game Dev -->
-
+<!-- Projetos -->
+<!-- Fim Projetos -->
 
 <!-- Footer -->
-<footer class="container">
-    <p class="float-end"><a href="#" style="text-decoration: none;">Voltar ao topo</a></p>
-    <p> 2023, Portfólio &middot; <a href="https://github.com/rodrigoscruz" style="text-decoration: none;">GitHub</a> &middot; <a href="https://www.linkedin.com/in/rodrigo-souza-da-cruz-4ba154181/" style="text-decoration: none;">Linkedin</a> &middot; <a href="https://drive.google.com/file/d/1ELKgEGZFIQymP2Vzm71nLN1wwtNm1jCI/view?usp=sharing" style="text-decoration: none;">Curriculo</a></p>
-  </footer>
 <!-- Fim Footer -->
-
-</main>
-
-    <script src="bootstrap.bundle.min.js"></script>
 
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/rellax/1.12.1/rellax.min.js" integrity="sha512-f5HTYZYTDZelxS7LEQYv8ppMHTZ6JJWglzeQmr0CVTS70vJgaJiIO15ALqI7bhsracojbXkezUIL+35UXwwGrQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 	
 	<script>
 		var rellax = new Rellax('.rellax');
 	</script>
+
+  <script src="script.js"></script>
 
 </body>
 </html>
